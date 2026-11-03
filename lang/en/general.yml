@@ -1,0 +1,29 @@
+title: Log In with TCS Community
+description: Log in to the skin site with a TCS community account.
+button: TCS Community
+button-title: Log in with a TCS community account
+config-title: TCS Community Login Settings
+url: Community URL
+url-hint: For example https://forum.example.com, without a trailing slash
+client-id: Client ID
+client-id-hint: The Client ID of the Flarum Server OAuth application
+client-secret: Client Secret
+client-secret-hint: The Client Secret of the Flarum Server OAuth application
+require-verified: Require a verified community email
+require-verified-hint: When enabled, users with an unverified community email cannot log in
+verify-ssl: Verify the community SSL certificate
+verify-ssl-hint: Disable this when the community uses a self-signed certificate
+callback: Callback URL
+callback-hint: Put this exact URL into the Redirect URI of the Flarum Server OAuth application.
+permission-hint: Also grant the "Use OAuth" permission to the user group in Flarum.
+not-configured: TCS Community login is not configured. Fill in the community URL, client ID and client secret.
+state-failed: Login state validation failed. Please try again.
+oauth-error: "The community returned an error: :message"
+no-code: The community did not return an authorization code.
+http-failed: "Unable to connect to the community: :message"
+token-failed: Community token exchange failed (HTTP :status).
+userinfo-failed: Unable to fetch the community user profile (HTTP :status).
+invalid-response: The community returned an invalid user profile.
+no-email: The community account has no email address.
+email-too-long: The community account email is too long.
+email-unverified: The community account email is not verified.

@@ -1,0 +1,29 @@
+title: TCS社区登录
+description: 使用 TCS 社区账号登录皮肤站
+button: TCS社区
+button-title: 使用 TCS社区账号登录
+config-title: TCS社区登录设置
+url: 社区地址
+url-hint: 例如 https://forum.example.com，结尾不要带斜杠
+client-id: 客户端 ID
+client-id-hint: 与 Flarum「Server OAuth」应用里的 Client ID 一致
+client-secret: 客户端密钥
+client-secret-hint: 与 Flarum「Server OAuth」应用里的 Client Secret 一致
+require-verified: 要求社区邮箱已验证
+require-verified-hint: 开启后，社区账号未验证邮箱时不能登录皮肤站；论坛未开启邮箱验证时可关闭
+verify-ssl: 验证社区 SSL 证书
+verify-ssl-hint: 社区使用自签名证书时关闭
+callback: 回调地址
+callback-hint: 把这个地址完整填写到 Flarum 后台「Server OAuth」应用的回调地址中。
+permission-hint: 还需要在 Flarum 后台权限页为用户组开启「Use OAuth」。
+not-configured: TCS社区登录尚未配置，请填写社区地址、客户端 ID 和客户端密钥
+state-failed: 登录状态校验失败，请重新发起登录
+oauth-error: 社区返回错误：:message
+no-code: 社区没有返回授权码
+http-failed: 无法连接社区：:message
+token-failed: 社区令牌交换失败（HTTP :status）
+userinfo-failed: 社区用户信息获取失败（HTTP :status）
+invalid-response: 社区返回的用户信息格式不正确
+no-email: 社区账号没有邮箱，无法登录皮肤站
+email-too-long: 社区账号邮箱过长，无法登录皮肤站
+email-unverified: 社区账号邮箱未验证，请先在社区完成邮箱验证

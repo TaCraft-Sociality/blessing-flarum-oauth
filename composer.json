@@ -1,0 +1,11 @@
+{
+  "name": "tacraft/blessing-flarum-oauth",
+  "description": "TCS community login for Blessing Skin",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tacraft\\TcsLogin\\": "src/"
+    }
+  }
+}

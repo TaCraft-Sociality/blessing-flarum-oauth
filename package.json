@@ -1,0 +1,19 @@
+{
+  "name": "blessing-flarum-oauth",
+  "title": "Tacraft\\TcsLogin::general.title",
+  "version": "1.0.3",
+  "description": "Tacraft\\TcsLogin::general.description",
+  "author": "TCS",
+  "url": "https://github.com/tacraft-sociality",
+  "namespace": "Tacraft\\TcsLogin",
+  "require": {
+    "blessing-skin-server": "*"
+  },
+  "enchants": {
+    "config": "Configuration",
+    "icon": {
+      "bg": "info",
+      "fa": "comments"
+    }
+  }
+}
